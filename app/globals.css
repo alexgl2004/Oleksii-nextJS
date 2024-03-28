@@ -31,3 +31,44 @@ body {
     text-wrap: balance;
   }
 }
+
+.FieldAdd{
+  color:black;
+  padding:10px;  
+}
+
+.block_select-UL{
+  text-align: left;
+}
+
+.block_select{
+  margin:5px;
+  margin-top:10px ! important;
+  padding:10px 20px;
+  background: rgb(76, 75, 75);
+  border:1px solid;
+  border-radius: 5px;
+  box-shadow:5px 5px 5px rgba(255,255,255,0.2)
+}
+
+.selected_text{
+  background: red;
+  padding:5px;
+  margin: 5px 0;
+}
+
+.selected_text.selectedEL0, .selected_text.selectedEL4{
+  background: green;
+}
+
+.selected_text.selectedEL1, .selected_text.selectedEL8{
+  background: yellow;
+}
+
+.selected_text.selectedEL2, .selected_text.selectedEL5{
+  background: cyan;
+}
+
+.selected_text.selectedEL3, .selected_text.selectedEL6{
+  background: blue;
+}
